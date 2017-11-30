@@ -19,6 +19,7 @@
 		4D5525071FCE6982000305B6 /* XYRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5525061FCE6982000305B6 /* XYRouteRequest.m */; };
 		4D55250A1FCE69A0000305B6 /* XYRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5525091FCE69A0000305B6 /* XYRouteDefinition.m */; };
 		4D55250D1FCE69D8000305B6 /* XYRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D55250C1FCE69D8000305B6 /* XYRouteResponse.m */; };
+		4D8C29B11FCFB26900B269A1 /* XYParsingUtilites.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8C29B01FCFB26900B269A1 /* XYParsingUtilites.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		4D5525091FCE69A0000305B6 /* XYRouteDefinition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYRouteDefinition.m; sourceTree = "<group>"; };
 		4D55250B1FCE69D8000305B6 /* XYRouteResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYRouteResponse.h; sourceTree = "<group>"; };
 		4D55250C1FCE69D8000305B6 /* XYRouteResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYRouteResponse.m; sourceTree = "<group>"; };
+		4D8C29AF1FCFB26900B269A1 /* XYParsingUtilites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYParsingUtilites.h; sourceTree = "<group>"; };
+		4D8C29B01FCFB26900B269A1 /* XYParsingUtilites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYParsingUtilites.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				4D5525091FCE69A0000305B6 /* XYRouteDefinition.m */,
 				4D55250B1FCE69D8000305B6 /* XYRouteResponse.h */,
 				4D55250C1FCE69D8000305B6 /* XYRouteResponse.m */,
+				4D8C29AF1FCFB26900B269A1 /* XYParsingUtilites.h */,
+				4D8C29B01FCFB26900B269A1 /* XYParsingUtilites.m */,
 			);
 			path = XYRoutes;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				4D5525071FCE6982000305B6 /* XYRouteRequest.m in Sources */,
 				4D5524DF1FCE648E000305B6 /* main.m in Sources */,
 				4D5524D11FCE648E000305B6 /* AppDelegate.m in Sources */,
+				4D8C29B11FCFB26900B269A1 /* XYParsingUtilites.m in Sources */,
 				4D55250A1FCE69A0000305B6 /* XYRouteDefinition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MW5TG3ELE;
 				INFOPLIST_FILE = JLRoutes_Learn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fangtetravel.JLRoutes-Learn";
@@ -476,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MW5TG3ELE;
 				INFOPLIST_FILE = JLRoutes_Learn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fangtetravel.JLRoutes-Learn";
